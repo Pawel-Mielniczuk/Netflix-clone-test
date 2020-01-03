@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+  <link rel="stylesheet" href="../styles/account.css" />
+  <title>Account-user-page</title>
+</head>
+
+<body>
+  <section class="hero-section">
+    <nav class="site-nav">
+      <h1 class="site-nav__title">
+        <a class="site-nav__title-link" href="#hero-section">
+          <img class="site-nav__logo" src="../images/logo.png" alt="" />
+        </a>
+      </h1>
+      <div class="dropdown-container">
+        <div class="mobile-menu__trigger-container">
+          <button class="mobile-menu__trigger dropnown-btn btn-account__page" type="button">
+            Browse
+          </button>
+          <span class="fas fa-caret-down"></span>
+        </div>
+        <ul class="mobile-site-nav__list dropdown-content">
+          <li class="mobile-site-nav__item">
+            <a class="mobile-site-nav__item-link" href="#">Home</a>
+          </li>
+          <li class="mobile-site-nav__item">
+            <a class="mobile-site-nav__item-link" href="#">TV Shows</a>
+          </li>
+          <li class="mobile-site-nav__item">
+            <a class="mobile-site-nav__item-link" href="#">Movies</a>
+          </li>
+          <li class="mobile-site-nav__item">
+            <a class="mobile-site-nav__item-link" href="#">Latest</a>
+          </li>
+          <li class="mobile-site-nav__item">
+            <a class="mobile-site-nav__item-link" href="#">My List</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="site-nav__list">
+        <li class="site-nav__list-item">
+          <a class="site-nav__list-link" href="#">Home</a>
+        </li>
+        <li class="site-nav__list-item">
+          <a class="site-nav__list-link" href="#">TV Shows</a>
+        </li>
+        <li class="site-nav__list-item">
+          <a class="site-nav__list-link" href="#">Movies</a>
+        </li>
+        <li class="site-nav__list-item">
+          <a class="site-nav__list-link" href="#">Latest</a>
+        </li>
+        <li class="site-nav__list-item">
+          <a class="site-nav__list-link" href="#">My List</a>
+        </li>
+      </ul>
+      <ul class="site-nav__profile-list">
+        <li class="site-nav__profile-item">
+          <div class="site-nav__profile-item__container">
+            <input class="site-nav_profile-list__search-input" type="search" name="" id="" />
+            <button class="search-input__trigger btn-account__page" type="button">
+              <span class="fas fa-search"></span>
+            </button>
+          </div>
+        </li>
+        <li class="site-nav__profile-item site-nav__profile-item--kids"><a href="#">Kids</a></li>
+        <li class="site-nav__profile-item">
+          <span class="fas fa-bell"></span>
+        </li>
+        <li class="site-nav__profile-item">
+          <button class="site-nav__profile-item_avatar btn-account__page" type="button">
+            <span class="site-nav__profile-item__caret"></span>
+          </button>
+        </li>
+        <li><a href="#" id="logout">Logout</a></li>
+      </ul>
+    </nav>
+    <header class="main-header">
+      <div class="header-container">
+        <img class="header-container__img" src="../images/irishman.webp" alt="logo of The Irishman film" />
+        <p class="header-container__para">
+          Welcomed into a crime family, he followed orders, kept secrets —
+          and swayed history. Martin Scorsese's epic tale of power and
+          loyalty.
+        </p>
+        <div class="header-container__btns">
+          <button class="header-btn header-btn__play btn-account__page" type="button">
+            <span class="header-btn__span-icon fas fa-caret-right"></span>
+            <span class="header-btn__span-text">Play</span>
+          </button>
+          <button type="button" class="header-btn btn-account__page">
+            <span class="header-btn__span-icon fas fa-plus"></span>
+            <span class="header-btn__span-text">My list</span>
+          </button>
+          <button type="button" class="header-btn btn-account__page more-info--btn">
+            <span class="header-btn__span-icon fas fa-exclamation"></span>
+            <span class="header-btn__span-text">More Info</span>
+          </button>
+        </div>
+      </div>
+    </header>
+  </section>
+  <main>
+    <section class="originals-netflix__section">
+      <h2 class="video-section__title">Netflix Originals</h2>
+      <div class="netflix-video__sections-container">
+        <div class="netflix-video__sections-container__item item1">
+          <img src="../images/two-popes.jpg" alt="poster of two popes film">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info">13+</span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item2">
+          <img src="../images/narcos.jpg" alt="poster of narcos tv show">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info">16+</span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item3">
+          <img src="../images/witcher.jpg" alt="poster of the Witcher tv show">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info">16+</span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item4">
+          <img src="../images/the-irishman.jpg" alt="poster of the Irisgman movie">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info">16+</span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item5">
+          <img src="../images/our-planet.jpg" alt="poster of out planet series">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info">16+</span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item6">
+          <img src="../images/the-spy.jpg" alt="poster of the spy movies">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info">16+</span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="netflix-video__section">
+      <h2 class="video-section__title">Because you watch The Witcher</h2>
+      <div class="netflix-video__sections-container netflix--originals">
+        <div class="netflix-video__sections-container__item item1">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="info-film__container-pg-info"></span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item2">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info"></span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item3">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info"></span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item4">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info"></span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item5">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info">16+</span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item6">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info"></span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="netflix-video__section">
+      <h2 class="video-section__title">Trending Now</h2>
+      <div class="netflix-video__sections-container netflix--originals">
+        <div class="netflix-video__sections-container__item item1">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info"></span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item2">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info"></span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item3">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info"></span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item4">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info"></span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item5">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info"></span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item6">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info"></span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="netflix-video__section">
+      <h2 class="video-section__title">Popular on Netflix</h2>
+      <div class="netflix-video__sections-container netflix--originals">
+        <div class="netflix-video__sections-container__item item1">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info"></span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item2">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info"></span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item3">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info"></span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item4">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info"></span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item5">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info"></span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+        <div class="netflix-video__sections-container__item item6">
+          <img class="netflix-video__background-img" src="" alt="">
+          <div class="video-netflix__overlay-container">
+            <div class="overlay-info__container">
+              <span class="fas fa-play"></span>
+              <span class="overlay-info__container-pg-info"></span>
+            </div>
+            <div class="opinion__container">
+              <span class="fas fa-volume-mute"></span>
+              <span class="fas fa-thumbs-up"></span>
+              <span class="fas fa-thumbs-down"></span>
+              <span class="fas fa-plus"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </section>
+  </main>
+  <script src="../scripts/account.js"></script>
+</body>
+
+</html>
